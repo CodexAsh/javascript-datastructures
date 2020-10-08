@@ -8,3 +8,5 @@ You can implement in any language!
 2) reversestring.js -> Taken a string and reversed it.
 
 3) mergearray.js -> Taken 2 Sorted array as parameters and merged them
+
+4) hashtable.js -> Created Hash Tables Data Structures
