@@ -23,6 +23,24 @@ class HashTable {
     
     
   }
+  
+   keys()
+  {
+    const keysarray = []
+    for (let i = 0; i < this.data.length; i ++)
+    {
+      const cuurentindex = this.data[i]
+      if (cuurentindex)
+      {
+          for (let j = 0 ; j < cuurentindex.length; j++)
+          {
+                keysarray.push(cuurentindex[j][0])
+          }
+      }
+    }
+
+  return keysarray
+  }
 
  get(key){
     const address = this._hash(key);
