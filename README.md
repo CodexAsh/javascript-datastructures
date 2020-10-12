@@ -12,3 +12,5 @@ You can implement in any language!
 3) mergearray.js -> Taken 2 Sorted array as parameters and merged them
 
 4) hash_table.js -> Created Hash Tables Data Structures. 
+
+5) firstlinklist.js -> Singly Link List creation!
